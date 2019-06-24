@@ -1,8 +1,6 @@
-<p align="center">
 ![alt text](http://alemacedo.com/logo/64w/sq03.png "Logo")
-<h1>A Simple Gatsby Start</h1>
+#A Simple Gatsby Start</h1>
 A very simple gatsby starter with some ready to use resources.
-</p>
 
 ### Use:
 npm install -g gatsby cli
