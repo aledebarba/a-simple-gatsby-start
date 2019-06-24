@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+
+/* typografy */
+--display-font-face: 'Alfa Slab One', Georgia, 'Times New Roman', Times, serif;
+--body-font-face: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+
+/* sizes */
+--xs: 0.5rem;
+--s: 0.8rem;
+--m: 1rem;
+--l: 1.5rem;
+--xl: 2rem;
+--xxl: 3rem;
+
+/* font shorthand font-style font-variant font-weight font-size/line-height font-family; */
+--hero: normal normal normal var(--xxl)/160% var(--display-font-face);
+--h1: normal normal normal var(--xl)/140% var(--display-font-face);
+--h2: normal normal normal var(--l)/140% var(--display-font-face);
+--h3: normal normal normal var(--m)/140% var(--display-font-face);
+--h4: normal normal normal var(--s)/120% var(--display-font-face);
+--body: normal normal normal var(--m)/135% var(--body-font-face);
+--link: normal normal normal var(--m)/120% var(--body-font-face);
+--caption: normal normal normal var(--s)/110% var(--body-font-face);
+--overline: normal small-caps bold var(--xs)/110% var(--body-font-face);
+--button: normal small-caps bold var(--s)/110% var(--body-font-face);
+
+/* text colors */
+--default-text-color: black;
+--default-text-inverse-color: white;
+--body-color: black;
+--body-inverse-color: white;
+--header-color: rgb(255, 102, 0);
+--header-inverse-color: rgb(255, 255, 255);
+--hero-color: rgb(138, 0, 0);
+--hero-inverse-color:lightsteelblue;
+--link-color: indigo;
+--link-hover-color: darkviolet;
+--link-inverse-color: rgb(255, 255, 255);
+--link-hover-inverse-color: rgb(255, 248, 211);
+--button-color: white;
+--button-hover-color: Gainsboro;
+
+/* background colors */
+--header-bg: rgb(255, 123, 0);
+--section-bg: AntiqueWhite;
+--footer-bg: DarkMagenta;
+--nav-bg: DarkRed;
+--button-primary-bg: DodgerBlue;
+--button-secondary-bg: BlueViolet;
+--button-alert-bg: OrangeRed;
+--button-ok-bg: Teal;
+--button-cancel-bg: Red;
+
+/* Shadows */
+--default-shadow: 2px 2px 3px 2px rgba(0,0,0,0.5);
+
+/* Borders */
+--default-radius: 5px;
+--border-circle: 50%;
+--dev-border: 1px solid red;
+
+/* Forms */
+--form-bg: rgba(195, 217, 224, 0.5);
+
+}
+
+.hero { padding-left: 40px }
+
+.hero h1 {
+        font: var(--hero) !important;
+        padding: 0;
+        color: var(--header-inverse-color) !important;
+}
+.hero p {
+    font: var(--body) !important;
+    color: var(--body-inverse-color);
+}
+.hero a {
+    font: var(--link) !important;
+    color: var(--link-inverse-color);
+    text-decoration: underline;
+}
+.hero a:hover {
+    color: var(--link-hover-inverse-color);
+    
+}
+p, ul, li {
+    font: var(--body);
+    margin: 0;
+    padding: 0;
+    color: var(--body-color);
+}
+
+h1 {
+    font: var(--h1);
+    margin: 0;
+    padding: 0;
+    color: var(--header-color);
+}
+h2 {
+    font: var(--h2);
+    margin: 0;
+    padding: 0;
+    color: var(--header-color);
+}
+h3 {
+    font: var(--h3);
+    margin: 0;
+    padding: 0;
+    color: var(--header-color);
+}
+h4 {
+    font: var(--h4);
+    margin: 0;
+    padding: 0;
+    color: var(--header-color);
+}
