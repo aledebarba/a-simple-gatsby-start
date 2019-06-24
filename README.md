@@ -3,10 +3,10 @@
 A very simple gatsby starter with some ready to use resources.
 
 ### Use:
-npm install -g gatsby cli
-gatsby new new-site a-simple-gatsby-start
-cd new-site
-gatsby develop
+npm install -g gatsby cli<br>
+gatsby new new-site a-simple-gatsby-start<br>
+cd new-site<br>
+gatsby develop<br>
 
 *to get email function working propperly, you need to edit:*
 *src/pages/contact.js*
